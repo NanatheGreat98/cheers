@@ -7,7 +7,7 @@
  Version:      0.1
 */
 
-
+/* It is not displayed in our solution but we just wanted to show that we can make changes directly in the code. */
 .header.page.header {
     display: none;
     menu: left;
