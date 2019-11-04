@@ -13,13 +13,14 @@
     menu: left;
 }
 
+/* Goes for the first -Level One- cocktail image. To show that we can modify the code directly. */
 .elementor-955 .elementor-element.elementor-element-baa0a8f .elementor-image img {
     width: 100%;
     max-width: 88%;
 }
 
 
-
+/* Orangeish hover colour of the social icons. */
 .elementor-955 .elementor-element.elementor-element-6a6fbb6 .elementor-social-icon:hover i {
     color: rgba(214,138,62,0.89);
 }
