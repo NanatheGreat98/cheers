@@ -46,6 +46,7 @@ function contact_form()
     
 }
     #self chosen name for the plugin
+    #if writing it in Elementor shortcode part, then you have to write these names
     add_shortcode('show_contact','contact_form');
 
     # here we register our stylesheet
@@ -61,6 +62,7 @@ function contact_form()
         
         wp_enqueue_style('CustomStylesheet', plugins_url('/cheers/css/style.css'));
         
+        # line 66 & 68 makes the popup animations happen
         wp_deregister_script('jquery');
         
         wp_enqueue_script('jquery','https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', array(), null, true);
